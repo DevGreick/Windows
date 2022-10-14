@@ -1,0 +1,19 @@
+------- licensa ----------
+slmgr.vbs /dlv
+slmgr/xpr (show license)
+slmgr.vbs /dlv (show full license)
+slmgr.vbs /ipk (install product key)
+slmgr.vbs /upk (uninstall product key)
+slmgr.vbs /cpky (uninstall product key from Registry)
+
+--------------------------
+
+comando para acessar remotamente a maquina via cmd e dar acesso remoto
+
+ps : acesse com conta administrativa
+1) Baixe https://learn.microsoft.com/en-us/sysinternals/downloads/pstools
+1) pastasalva .\PsExec.exe \\"ip do computador" -s cmd
+2) reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+3) Acesse a maquina via mstsc
+
+----------------------------

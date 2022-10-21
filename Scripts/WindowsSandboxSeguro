@@ -1,0 +1,22 @@
+<!--
+WindowsSandbox totalmente seguro para testes de Malwares e virus em geral, somente com uma pasta espelhada.
+copie o codigo e salve no formato .wsb altere HostFolder e SandboxFolder de acordo com suas necessidades mais informações consulte a pagina https://learn.microsoft.com/pt-br/windows/security/threat-protection/windows-sandbox/windows-sandbox-configure-using-wsb-file 
+-->
+<Configuration>
+<vGPU>Disable</vGPU>
+<Networking>Disable</Networking>
+<AudioInput>Disable</AudioInput>
+<VideoInput>Disable</VideoInput>
+<ProtectedClient>Enable</ProtectedClient>
+<PrinterRedirection>Disable</PrinterRedirection>
+<MappedFolders>
+<MappedFolder>
+<HostFolder>C:\Gutts\Sandbox</HostFolder>
+<SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads</SandboxFolder>
+<ReadOnly>true</ReadOnly>
+</MappedFolder>
+</MappedFolders>
+<LogonCommand>
+<Command>explorer.exe C:\Users\WDAGUtilityAccount\Downloads</Command>
+</LogonCommand>
+</Configuration>

@@ -1,10 +1,11 @@
 <!--
-####################################################################################################################################################################                                                                                                                                  #
-# Habilite o Windows Sandbox em ativar e desativar recursos do Windows ( Opção Area restritita do windows )                                                        #
-# Windows Sandbox restritivo para testes invasivos que possam comprometer a integridade do host, com uma pasta compartilhada somente leitura.                         							               #                                                                                                           #
-# copie o codigo e salve no formato .wsb altere HostFolder e SandboxFolder de acordo com suas necessidades.  													                             #
-# mais informações consulte a pagina https://learn.microsoft.com/pt-br/windows/security/threat-protection/windows-sandbox/windows-sandbox-configure-using-wsb-file #
-###################################################################################################################################################################
+##############################################################################################################################################################################################                                                                                                                                                                                       #																															   #
+# Habilite o Windows Sandbox em ativar e desativar recursos do Windows ( Opção Area restritita do windows )                                                                                  #
+# Arquivo de configuração que cria um Windows Sandbox em formato restritivo para testes invasivos que possam comprometer a integridade do host, com uma pasta compartilhada somente leitura  #                                                                      #																														         #
+#                                                                                                                                                                                      #
+# copie o codigo e salve no formato .wsb altere HostFolder e SandboxFolder de acordo com suas necessidades.  													   #
+# mais informações consulte a pagina https://learn.microsoft.com/pt-br/windows/security/threat-protection/windows-sandbox/windows-sandbox-configure-using-wsb-file                           #
+##############################################################################################################################################################################################
 -->
 <Configuration>
 <vGPU>Disable</vGPU>

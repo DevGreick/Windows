@@ -1,9 +1,9 @@
 <!--
-###################################################################################################################################################################
-# Criado por DevGreick                                                                                                                                            #
-# WindowsSandbox totalmente seguro para testes de Malwares e virus em geral, somente com uma pasta espelhada.                         							  #                                                                                                         #
-# copie o codigo e salve no formato .wsb altere HostFolder e SandboxFolder de acordo com suas necessidades.  													  #
-# mais informações consulte a pagina https://learn.microsoft.com/pt-br/windows/security/threat-protection/windows-sandbox/windows-sandbox-configure-using-wsb-file#
+####################################################################################################################################################################
+# Criado por DevGreick                                                                                                                                             #
+# WindowsSandbox totalmente seguro para testes de Malwares e virus em geral, somente com uma pasta espelhada.                         							   #                                                                                                         #
+# copie o codigo e salve no formato .wsb altere HostFolder e SandboxFolder de acordo com suas necessidades.  													   #
+# mais informações consulte a pagina https://learn.microsoft.com/pt-br/windows/security/threat-protection/windows-sandbox/windows-sandbox-configure-using-wsb-file #
 ###################################################################################################################################################################
 -->
 <Configuration>

@@ -6,12 +6,13 @@ $PrePackages = @(
 )
 
 # Parallel package list. Multiple items within nested arrays will be installed serially
-#    @("docker-cli"),    @("firefox"),    @("procexp"),    @("conemu"),    @("notepadplusplus")
+
 $Packages = @(
     @("linqpad"),
     @("vscode",	"vscode-powershell"),
     @("git"),
     @("nodejs")
+    @("notepadplusplus")
 )
 Write-Verbose "Starting stopwatch..." -Verbose
 $Timer = [System.Diagnostics.Stopwatch]::StartNew()

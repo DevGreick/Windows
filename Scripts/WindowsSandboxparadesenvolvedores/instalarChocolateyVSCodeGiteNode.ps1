@@ -12,7 +12,7 @@ $Packages = @(
     @("vscode",	"vscode-powershell"),
     @("git"),
     @("nodejs")
-    @("notepadplusplus")
+    
 )
 Write-Verbose "Starting stopwatch..." -Verbose
 $Timer = [System.Diagnostics.Stopwatch]::StartNew()

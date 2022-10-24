@@ -1,5 +1,5 @@
 <!--
-####################################################################################################################################################################                   #                                                                                                               
+####################################################################################################################################################################                   #                                                                
 # Habilite o Windows Sandbox em ativar e desativar recursos do Windows ( Opção Area restritita do windows )                                                        
 # WindowsSandbox totalmente seguro para testes de Malwares e virus em geral, somente com uma pasta espelhada.                         							               #                                                                                                           
 # copie o codigo e salve no formato .wsb altere HostFolder e SandboxFolder de acordo com suas necessidades.										                             

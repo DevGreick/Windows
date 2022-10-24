@@ -1,3 +1,11 @@
+<!--
+####################################################################################################################################################################                   #                                                                
+# Habilite o Windows Sandbox em ativar e desativar recursos do Windows ( Opção Area restritita do windows )                                                        
+# WindowsSandbox para desenvolvimento web, com instalação do vscode,nodeJS e chocolatey ao iniciar                                                                                                           
+# copie o codigo e salve no formato .wsb altere HostFolder,SandboxFolder e LogonCommand de acordo com suas necessidades.										                             
+# mais informações consulte a pagina https://learn.microsoft.com/pt-br/windows/security/threat-protection/windows-sandbox/windows-sandbox-configure-using-wsb-file 
+###################################################################################################################################################################
+-->
 <Configuration>
    <MappedFolders>
      <MappedFolder>

@@ -1,4 +1,4 @@
-# this script should be located on the Windows Host in directory C:\Gutts\Sandbox\Arquivos
+# this script should be located on the Windows Host in directory C:\Gutts\Sandbox\Arquivos modify according to your needs
 
 # Serial Package List
 $PrePackages = @(

@@ -20,7 +20,7 @@ goto End
 :UNLOCK
 echo Digite a senha para desbloquear pasta
 set/p "pass=>"
-if NOT %pass%== "Sua senha Aqui" goto FAIL
+if NOT %pass%== suasenhaaqui goto FAIL
 attrib -h -s "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}"
 ren "Control Panel.{21EC2020-3AEA-1069-A2DD-08002B30309D}" Private
 echo Folder Desbloqueado com sucesso

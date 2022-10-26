@@ -8,7 +8,6 @@ $PrePackages = @(
 # Parallel package list. Multiple items within nested arrays will be installed serially
 
 $Packages = @(
-    @("linqpad"),
     @("vscode",	"vscode-powershell"),
     @("git"),
     @("nodejs")

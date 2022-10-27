@@ -1,4 +1,4 @@
-# this script should be located on the Windows Host in directory C:\Gutts\Sandbox\Arquivos modify according to your needs
+# this script should be located on the Windows Host in directory C:\Gutts\Sandbox\Arquivos
 
 # Serial Package List
 $PrePackages = @(
@@ -8,10 +8,11 @@ $PrePackages = @(
 # Parallel package list. Multiple items within nested arrays will be installed serially
 
 $Packages = @(
-    @("vscode",	"vscode-powershell"),
+  	@("vscode"),
     @("git"),
-    @("nodejs")
-    
+    @("nodejs", "vscode-powershell", "vscode-eslint", "vscode-prettier", "vscode-yaml")
+	
+	
 )
 Write-Verbose "Starting stopwatch..." -Verbose
 $Timer = [System.Diagnostics.Stopwatch]::StartNew()

@@ -1,5 +1,5 @@
 REM 🔑 Pasta que oculta e desoculta com senha 🔑
-REM Altere a linha 23 inserindo a senha a sua escolha - if NOT %pass%== "Sua senha Aqui" goto FAIL
+REM Altere a seguir inserindo a senha a sua escolha - if NOT %pass%== "Sua senha Aqui" goto FAIL
 REM Para maior segurança apos a alterações converta para Exe ( Advanced Bat ) link : https://advanced-bat-exe-converter.br.uptodown.com/windows
 REM Atenção aos detalhes !! se inserir a senha incorreta pode não ser mais possivel acessa-la então anote-a.
 
